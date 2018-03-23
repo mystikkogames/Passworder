@@ -1,0 +1,28 @@
+{
+  "name": "Passworder",
+  "version": "1.0.0",
+  "description": "A password creator",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/mystikkogames/passworder",
+  "keywords": [
+    "passworder",
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "GNUv3",
+  "devDependencies": {
+    "electron": "~1.8.2"
+  },
+  "dependencies": {
+    "coffeescript": "^2.2.3",
+    "randompass": "^1.0.0",
+    "remote": "^0.2.6"
+  }
+}

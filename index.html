@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Passworder by mystikkogames</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="./styles.css">
+
+		<script>
+			delete module.exports
+		</script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="./window.js" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<div id="container" class="container-fluid">
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+					<h3 class="hash-heading">chars</h3>
+					<input type="text" class="form-control" id="passwordchars" value="0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz-*_+=)(">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h3 class="hash-heading">length</h3>
+					<input type="text" class="form-control" id="passwordlength" value="12" />
+				</div>
+			</div>
+				
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h3 class="hash-heading">password</h3>
+        			<textarea rows="1" id="passwordoutput" class="form-control text-input" placeholder="Enter text and see it hashed..."></textarea>
+				</div>
+			</div>
+		 
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+					<div class="progress">
+						<div class="progress-bar" id="pbar" style="width:70%"></div>
+					</div> 
+				</div>
+			</div>
+		 
+		 
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+					<button type="button" id="smallerbutton" class="btn btn-info">smaller</button>
+					<button type="button" id="generatebutton" class="btn btn-success">generate</button>
+					<button type="button" id="biggerbutton" class="btn btn-info">bigger</button>
+				</div>
+			</div>
+		 
+		</div>
+	</body>
+
+</html>
